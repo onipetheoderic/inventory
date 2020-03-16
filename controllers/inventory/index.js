@@ -1,4 +1,4 @@
 
 exports.home = function(req, res){
-    res.render('eventory/index', {layout: "layout/inventory"})
+    res.render('inventory/home', {layout: "layout/inventory"})
 }
